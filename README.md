@@ -5,6 +5,27 @@
 ## Overview
 This project is a Java-based game featuring an authentication system, a procedurally generated map, a strategic combat system, and a graphical user interface (GUI). The game is built using Java Swing for the frontend and follows object-oriented programming (OOP) principles, integrating various design patterns to ensure modularity and scalability.
 
+
+
+## Setup & Run
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/david08mihai/league-of-warriors.git
+   cd league-of-warriors
+2. Open the project in IntelliJ IDEA
+3. Add the JSON library:
+   - Go to File -> Project Structure -> Libraries
+   - Click + -> Java, then select `json-simple-1.1.1.jar` from the project root
+   - Apply and close
+4. Run the game
+      - Open `src/game/ui/GameUI.java`
+5. Login
+   - Use one of the accounts defined in `src/game/accounts/accounts.json`
+   - An easy account would be:
+     * `email: test`
+     * `password: 1234`
+
 ## Features
 
 ### 1. Authentication and Account System
