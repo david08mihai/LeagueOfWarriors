@@ -35,8 +35,8 @@
     },
     {
       "credentials": {
-        "email": "genna1951@hotmail.red",
-        "password": "123456"
+        "email": "test",
+        "password": "1234"
       },
       "name": "Nawra Ortwin",
       "country": "Turkey",
@@ -267,4 +267,5 @@
       ]
     }
   ]
+
 }
