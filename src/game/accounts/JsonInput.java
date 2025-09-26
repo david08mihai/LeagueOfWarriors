@@ -14,7 +14,7 @@ import java.util.TreeSet;
 
 public class JsonInput {
     public static ArrayList<Account> deserializeAccounts() throws IOException {
-        String accountPath = "accounts\\accounts.json";
+        String accountPath = "src\\game\\accounts\\accounts.json";
         String content = new String((Files.readAllBytes(Paths.get(accountPath))));
         Object object = JSONValue.parse(content);
         JSONObject obj = (JSONObject) object;
